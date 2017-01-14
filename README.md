@@ -9,13 +9,6 @@ __mvn-repo__ is a central maven repository for anyone to use.
 
 Simply add the repository to your app build.gradle file:
 ```groovy
-buildscript {
-    repositories {
-        jcenter()
-        maven { url 'https://github.com/bonespike/mvn-repo/raw/master/maven-deploy' }
-        ...
-    }
-}
 
 
 repositories {
